@@ -25,13 +25,19 @@ function exit() {
 let pathToDotEnv = path.resolve(process.cwd(), '.env');
 console.log(pathToDotEnv);
 
+
+
+
 // Checkpoint. Does the value of the terminal depend 
 // on the directory of execution?
+
 
 
 // b. To avoid path issues, you can specify the path to the .env file manually
 // in the `config()` method of the dotenv package. See how to do it in
 // the examples here: https://www.npmjs.com/package/dotenv
+
+
 
 // You can specify the full path manually, however it is more convenient to
 // use a relative path from this file. The `__dirname` variable always 
